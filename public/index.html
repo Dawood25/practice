@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hindustan</title>
+        <meta charset="UTF-08"/>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+    <body style="background-color: lightgray">
+        <div class="container">
+            <div class="heading">
+                    <marquee><h2>Hindustan Machienery</h2></marquee>
+            </div>
+            <div class="form" id="loginForm">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-0 col-xs-0">
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <form action="/authenticate" method="POST">
+                                <div class="form-group">
+                                  <label for="email">Email address:</label>
+                                  <input type="email" name="email" class="form-control" id="email">
+                                </div>
+                                <div class="form-group">
+                                  <label for="pwd">Password:</label>
+                                  <input type="password" name="password" class="form-control" id="pwd">
+                                </div>
+                                <div class="checkbox">
+                                  <label><input type="checkbox"> Remember me</label>
+                                </div>
+                                <button type="submit" class="btn btn-default">Submit</button>
+                              </form>                        
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-0 col-xs-0">
+                    </div>
+                </div>          
+            </div>       
+         </div>
+        
+    </body>
+</html>
