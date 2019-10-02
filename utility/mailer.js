@@ -5,7 +5,7 @@ let sendEmail=(req,res,callback)=>{
       service: 'gmail',
       auth: {
         user: 'dawood.multhan@gmail.com',
-        pass: 'Fizza.25'
+        pass: 'shutupyoumotherfucker'
       }
     });
     
